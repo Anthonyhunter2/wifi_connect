@@ -3,9 +3,7 @@
 from re import search
 import os
 import subprocess
-from time import sleep
 from collections import OrderedDict
-import binascii
 from sys import exit
 def check_for_wifi_card():
 	dir_to_check = "/sys/class/net"
